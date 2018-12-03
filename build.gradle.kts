@@ -1,5 +1,5 @@
 /*
- * This generated file contains a sample Kotlin application project to get you started.
+ * This file contains a sample Kotlin application project to get you started.
  */
 
 plugins {
