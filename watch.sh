@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./rerun.sh -e '\.gradle' gradle test
+./rerun.sh -v -e '\.gradle' -e 'build' gradle test
