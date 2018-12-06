@@ -6,8 +6,8 @@ import org.junit.jupiter.api.Assertions.assertEquals
 
 class AppTests {
     @Test fun testAppHasAGreeting() {
-        val classUnderTest = App()
-        assertNotNull(classUnderTest.greeting, "app should have a greeting")
-        assertEquals(classUnderTest.greeting, "Hello World.")
+        val app = App()
+        assertNotNull(app.greeting, "app should have a greeting")
+        assertEquals(app.greeting, "Hello world.")
     }
 }
